@@ -65,8 +65,6 @@ visibility: visible;
 #parties a{padding: 0;}
 
 /* NAV - RESIDENTS HOVER */
-.img2{display: none; width: 100%; position: absolute; z-index: 9999;}
-.fluffi:hover .img2 {display: block;}
 
 /* FOOTER */
 footer{display: flex; flex-direction: row; align-items: center; justify-content: space-between; bottom: 0; position: fixed; height: 60px; width: 100%; border-top: 1px solid white; z-index: 9999;}
@@ -127,13 +125,13 @@ page p{
 #artists-show {font-size: 16px; line-height: 32px;}
 #parties {font-size: 16px; line-height: 32px;}
 
-footer{flex-direction: column; align-items: center; height: auto; padding: 24px 0px 6px 0px;}
+footer{flex-direction: row; align-items: center; height: 60px;}
 
 .footer-left{display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;}
 .footer-right{display:none;}
-.footer-wordmark{margin-left: 12px; padding-right: 0px; padding-bottom: 12px; width: 120px;}
+.footer-wordmark{margin-left: 12px; padding-right: 0px; width: 120px;}
 .footer-wordmark-mobile{display: inline-block; width: 20px; margin-left: 12px; padding-bottom: 6px;}
-.footer-icons img{width: 20px; vertical-align: middle; padding-bottom: 12px;}
+.footer-icons img{width: 20px; vertical-align: middle;}
 .footer-icons a{padding: 12px;}
 
 }
