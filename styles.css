@@ -74,6 +74,7 @@ footer{display: flex; flex-direction: row; align-items: center; justify-content:
 .footer-left{display: flex; flex-direction: row; align-items: center;}
 .footer-right{display: flex; flex-direction: row; align-items: center; gap: 24px; font-size: 12px; letter-spacing: 1px;}
 .footer-wordmark{margin-left: 20px; padding-right: 12px; width: 120px;}
+.footer-wordmark-mobile{display: none;}
 .footer-icons img{width: 20px; vertical-align: middle;}
 .footer-icons a{padding: 12px;}
 .footer-logo{margin-right: 20px; width: 20px;}
@@ -126,14 +127,14 @@ page p{
 #artists-show {font-size: 16px; line-height: 32px;}
 #parties {font-size: 16px; line-height: 32px;}
 
-footer{flex-direction: column; align-items: center; justify-content: space-between; height: auto; padding: 24px 0px 24px 0px;}
+footer{flex-direction: column; align-items: center; height: auto; padding: 24px 0px 6px 0px;}
 
 .footer-left{display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;}
-.footer-right{display: flex; flex-direction: column; align-items: center; gap: 24px; font-size: 12px; letter-spacing: 1px;}
+.footer-right{display:none;}
 .footer-wordmark{margin-left: 12px; padding-right: 0px; padding-bottom: 12px; width: 120px;}
+.footer-wordmark-mobile{display: inline-block; width: 20px; margin-left: 12px; padding-bottom: 6px;}
 .footer-icons img{width: 20px; vertical-align: middle; padding-bottom: 12px;}
 .footer-icons a{padding: 12px;}
-.footer-logo{margin-right: 0px; width: 20px;}
 
 }
 
