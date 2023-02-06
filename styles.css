@@ -56,12 +56,12 @@ visibility: visible;
 .underline{text-decoration: underline; text-underline-offset: 10px;}
 
 /* NAV - PARTIES AND RESIDENTS DROPDOWN */
-#artists-hide {display: none; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px;}
+#artists-hide {display: none; margin-top: -20px; font-size: 24px; padding: 24px;}
 #artists-hide a{padding: 0;}
-#artists-show {display: block; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px;}
+#artists-show {display: block; margin-top: -20px; font-size: 24px; padding: 24px;}
 #artists-show a{padding: 0;}
 
-#parties {display: none; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px; max-width: 40vw;}
+#parties {display: none; margin-top: -20px; font-size: 24px; padding: 24px; max-width: 40vw;}
 #parties a{padding: 0;}
 
 /* NAV - RESIDENTS HOVER */
@@ -121,9 +121,9 @@ page p{
 
 /* RESPONSIVE STATES */
 @media (max-width: 650px) {
-#artists-hide {font-size: 16px; line-height: 32px;}
-#artists-show {font-size: 16px; line-height: 32px;}
-#parties {font-size: 16px; line-height: 32px;}
+#artists-hide {font-size: 16px;}
+#artists-show {font-size: 16px;}
+#parties {font-size: 16px;}
 
 footer{flex-direction: row; align-items: center; height: 60px;}
 
