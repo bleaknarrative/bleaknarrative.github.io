@@ -121,9 +121,9 @@ page p{
 
 /* RESPONSIVE STATES */
 @media (max-width: 650px) {
-#artists-hide {font-size: 16px;}
-#artists-show {font-size: 16px;}
-#parties {font-size: 16px;}
+#artists-hide {font-size: 18px;}
+#artists-show {font-size: 18px;}
+#parties {font-size: 18px;}
 
 footer{flex-direction: row; align-items: center; height: 60px;}
 
