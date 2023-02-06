@@ -87,7 +87,7 @@ page{
     right: 0;
     position: fixed;
     border-left: 1px solid white;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 page p{
