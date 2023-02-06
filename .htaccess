@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.html
@@ -6,3 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 RewriteRule (.*)$ /$1/ [R=301,L]
+=======
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+>>>>>>> 98d78a5597501cb6298cba9d00fcbc1ab6816929
