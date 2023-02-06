@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Kulture";
+    src: url("fonts/kulture.otf");
+}
+
+html{
+    background-color: #111111;
+    font-family: "Kulture", sans-serif;
+    color: white;
+}
+
+body{margin: 0;}
+
+/* LINKS */
+a{text-decoration: none; color: white;}
+a:visited{text-decoration: none; color: white;}
+a:hover{text-decoration: underline;}
+
+/* BACKGROUND NOISE */
+.bg {
+z-index: -999;
+position: fixed;
+top: -50%;
+left: -50%;
+right: -50%;
+bottom: -50%;
+width: 200%;
+height: 200vh;
+background: transparent url('imgs/noise.png') repeat 0 0;
+background-repeat: repeat;
+animation: bg-animation .2s infinite;
+opacity: .9;
+visibility: visible;
+}
+
+@keyframes bg-animation {
+0% { transform: translate(0,0) }
+10% { transform: translate(-5%,-5%) }
+20% { transform: translate(-10%,5%) }
+30% { transform: translate(5%,-10%) }
+40% { transform: translate(-5%,15%) }
+50% { transform: translate(-10%,5%) }
+60% { transform: translate(15%,0) }
+70% { transform: translate(0,10%) }
+80% { transform: translate(-15%,0) }
+90% { transform: translate(10%,5%) }
+100% { transform: translate(5%,0) }
+}
+
+/* NAV */
+.nav-links {display: flex; flex-direction: column; align-items: flex-start; width: 100%; position: absolute; font-size: 32px; padding-bottom: 60px; user-select: none; -webkit-user-select: none;}
+.nav-links a{padding: 24px;}
+.nav-links a:hover{text-underline-offset: 10px;}
+
+.dropdown{font-size: 32px; color: white; padding: 24px; cursor: crosshair;}
+.underline{text-decoration: underline; text-underline-offset: 10px;}
+
+/* NAV - PARTIES AND RESIDENTS DROPDOWN */
+#artists-hide {display: none; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px;}
+#artists-hide a{padding: 0;}
+#artists-show {display: block; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px;}
+#artists-show a{padding: 0;}
+
+#parties {display: none; margin-top: -20px; font-size: 24px; line-height: 32px; padding: 24px; max-width: 40vw;}
+#parties a{padding: 0;}
+
+/* FOOTER */
+footer{display: flex; flex-direction: row; align-items: center; justify-content: space-between; bottom: 0; position: fixed; height: 60px; width: 100%; border-top: 1px solid white; z-index: 9999;}
+
+.footer-left{display: flex; flex-direction: row;}
+.footer-right{display: flex; flex-direction: row; align-items: center; gap: 24px; font-size: 12px; letter-spacing: 1px;}
+.footer-wordmark{margin-left: 20px; padding-right: 12px; width: 120px;}
+.footer-icons img{width: 20px; vertical-align: middle;}
+.footer-icons a{padding: 12px;}
+.footer-logo{margin-right: 20px; width: 20px;}
+
+/* PAGES */
+page{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: calc(100% - 60px);
+    width: 50vw;
+    right: 0;
+    position: fixed;
+    border-left: 1px solid white;
+    overflow: scroll;
+}
+
+page p{
+    margin: 24px;
+    line-height: 125%;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.title{margin: 24px; font-size: 32px;}
+
+/* MIXES */
+.mix-list{display: flex; flex-direction: row; justify-content: space-between; margin: 24px; padding-bottom: 10px; letter-spacing: 3px; border-bottom: 1px solid;}
+.mix-list-item{}
+.mix-list-item-number{font-size: 12px;}
+.mix-list-item-title{margin-top: 10px;}
+.mix-list-info{font-size: 12px;}
+.mix-list a:hover{text-underline-offset: 5px;}
+
+/* PARTIES */
+
+
+/* RESIDENTS */
+
+
+/* STORIES */
+
+
+/* ABOUT */
+
+
+/* RESPONSIVE STATES */
+@media (max-width: 650px) {
+#artists-hide {font-size: 16px; line-height: 32px;}
+#artists-show {font-size: 16px; line-height: 32px;}
+#parties {font-size: 16px; line-height: 32px;}
+}
+
