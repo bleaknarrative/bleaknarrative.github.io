@@ -77,6 +77,7 @@ transition: opacity .25s ease-out;
 -webkit-transition: opacity .25s ease-out;
 -o-transition: opacity .25s ease-out;
 }
+
 .hover_image a:hover span{
 left: 0;
 opacity: 1;
@@ -86,7 +87,7 @@ transition: opacity .25s ease-out;
 -o-transition: opacity .25s ease-out;
 }
 
-.hover_image img{
+.hover_image a span img{
 margin-left: -24px;
 width: 150vw;
 height: auto;
