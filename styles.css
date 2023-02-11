@@ -9,7 +9,9 @@ html{
     color: white;
 }
 
-body{margin: 0;}
+body{
+    margin: 0;
+}
 
 /* LINKS */
 a{text-decoration: none; color: white;}
@@ -123,6 +125,9 @@ page{
     position: fixed;
     border-left: 1px solid white;
     overflow: scroll;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 page p{
@@ -152,6 +157,17 @@ page p{
 
 
 /* ABOUT */
+
+
+/* ANIMATIONS */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
 
 /* RESPONSIVE STATES */
