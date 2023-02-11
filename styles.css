@@ -64,6 +64,9 @@ visibility: visible;
 #parties {display: none; margin-top: -20px; font-size: 24px; padding: 24px; max-width: 40vw;}
 #parties a{padding: 0;}
 
+#parties-show {display: block; margin-top: -20px; font-size: 24px; padding: 24px; max-width: 40vw;}
+#parties-show a{padding: 0;}
+
 .hover_image a{
 position:relative;
 }
