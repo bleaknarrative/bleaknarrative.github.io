@@ -56,6 +56,10 @@ a{text-decoration: none; color: white;}
 a:visited{text-decoration: none; color: white;}
 a:hover{text-decoration: underline;}
 
+.active-pink a{color: #FF36C3;}
+.active-cyan a{color: #01FDF4;}
+.active-green a{color: #84FB00;}
+
 /* BACKGROUND NOISE */
 .bg {
 z-index: -999;
@@ -135,6 +139,7 @@ page{
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    overflow-x: hidden;
 }
 
 page p{
