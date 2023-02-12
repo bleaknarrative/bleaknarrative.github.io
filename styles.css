@@ -129,6 +129,7 @@ footer{display: flex; flex-direction: row; align-items: center; justify-content:
 
 /* PAGES */
 page{
+    visibility: visible;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -143,6 +144,8 @@ page{
     animation-fill-mode: forwards;
     overflow-x: hidden;
 }
+
+.hide-page{visibility: hidden;}
 
 page p{
     margin: 24px;

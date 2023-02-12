@@ -40,9 +40,14 @@ jQuery(document).ready(function() {
 $(document).ready(function(){ 
     var button = $('#menu');
     var nav = $('.nav-links');
+    var page = $('page');
     
     button.on("click",function(){
     nav.toggleClass('show-nav');
+    });
+
+    button.on("click",function(){
+    page.toggleClass('hide-page');
     });
 });
 });
