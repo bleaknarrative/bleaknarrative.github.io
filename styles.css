@@ -29,19 +29,19 @@ body{
 }
 
 .whattis{
-    background-image: url("imgs/residents/whattis.jpg");
+    background-image: url("imgs/residents/whattis-bg.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .fluffi{
-    background-image: url("imgs/residents/fluffi.jpg");
+    background-image: url("imgs/residents/fluffi-bg.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .paris{
-    background-image: url("imgs/residents/paris.jpg");
+    background-image: url("imgs/residents/paris-bg.jpg");
     background-size: cover;
     background-position: center;
 }
