@@ -204,7 +204,7 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .show-resident{visibility: hidden;}
     .nav-links{margin-top: 60px; visibility: hidden;} .show-nav{visibility: visible;}
     .nav-mobile{display: block; top: 0; position: fixed; height: 60px; width: 100%; border-bottom: 1px solid white; z-index: 99999;}
