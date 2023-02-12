@@ -94,6 +94,8 @@ visibility: visible;
 }
 
 /* NAV */
+.nav-mobile{display: none;}
+
 .nav-links {display: flex; flex-direction: column; align-items: flex-start; width: 100%; position: absolute; font-size: 32px; padding-bottom: 60px; user-select: none; -webkit-user-select: none;}
 .nav-links a{padding: 24px;}
 .nav-links a:hover{text-underline-offset: 10px;}
