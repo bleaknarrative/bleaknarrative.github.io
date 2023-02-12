@@ -39,6 +39,7 @@ body{
 .paris{
     background-image: url("imgs/residents/paris.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .show-resident{
@@ -196,7 +197,7 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 .footer-left{display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;}
 .footer-right{display:none;}
 .footer-wordmark{margin-left: 12px; padding-right: 0px; width: 120px;}
-.footer-wordmark-mobile{display: inline-block; width: 20px; margin-left: 12px; margin-bottom: -2px;}
+.footer-wordmark-mobile{display: none;}
 .footer-icons img{width: 20px; vertical-align: middle;}
 .footer-icons a{padding: 12px;}
 
