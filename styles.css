@@ -150,6 +150,7 @@ page p{
 }
 
 .title{margin: 24px; font-size: 32px;}
+.title-small{margin: 24px; font-size: 32px;}
 
 /* MIXES */
 .mix-list{display: flex; flex-direction: row; justify-content: space-between; margin: 24px; padding-bottom: 10px; letter-spacing: 3px; border-bottom: 1px solid;}
@@ -187,6 +188,8 @@ page p{
 #artists-hide {font-size: 18px;}
 #artists-show {font-size: 18px;}
 #parties {font-size: 18px;}
+
+.title-small{margin: 24px; font-size: 20px;}
 
 footer{flex-direction: row; align-items: center; height: 60px;}
 
