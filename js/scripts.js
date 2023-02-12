@@ -37,6 +37,17 @@ function hideResidents() {
 }
 
 jQuery(document).ready(function() {
+$(document).ready(function(){ 
+    var button = $('#menu');
+    var nav = $('.nav-links');
+    
+    button.on("click",function(){
+    nav.toggleClass('show-nav');
+    });
+});
+});
+
+jQuery(document).ready(function() {
      jQuery('.resident-whattis').hover(function(){     
            jQuery('.whattis').addClass('show-resident');    
        },function(){    
