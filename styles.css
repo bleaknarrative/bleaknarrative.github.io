@@ -97,6 +97,14 @@ visibility: visible;
 
 /* NAV */
 .nav-mobile{display: none;}
+#menu{cursor: crosshair;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */}
 
 .nav-links {display: flex; flex-direction: column; align-items: flex-start; width: 100%; position: absolute; font-size: 32px; padding-bottom: 60px; user-select: none; -webkit-user-select: none;}
 .nav-links a{padding: 24px;}
