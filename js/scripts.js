@@ -17,3 +17,27 @@ function showResidents() {
     x.style.display = "block";
   }
 }
+
+jQuery(document).ready(function() {
+     jQuery('.resident-whattis').hover(function(){     
+           jQuery('.whattis').addClass('show-resident');    
+       },function(){    
+          jQuery('.whattis').removeClass('show-resident');     
+       });
+   });
+
+jQuery(document).ready(function() {
+     jQuery('.resident-fluffi').hover(function(){     
+           jQuery('.fluffi').addClass('show-resident');    
+       },function(){    
+          jQuery('.fluffi').removeClass('show-resident');     
+       });
+   });
+
+jQuery(document).ready(function() {
+     jQuery('.resident-paris').hover(function(){     
+           jQuery('.paris').addClass('show-resident');    
+       },function(){    
+          jQuery('.paris').removeClass('show-resident');     
+       });
+   });

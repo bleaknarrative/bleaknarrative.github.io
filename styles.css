@@ -13,6 +13,44 @@ body{
     margin: 0;
 }
 
+.resident{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -9999;
+}
+
+.whattis{
+    background-image: url("imgs/residents/whattis.jpg");
+    background-size: cover;
+}
+
+.fluffi{
+    background-image: url("imgs/residents/fluffi.jpg");
+    background-size: cover;
+}
+
+.paris{
+    background-image: url("imgs/residents/youarenotgoingtoparis.jpg");
+    background-size: cover;
+}
+
+.show-resident{
+    visibility: visible;
+    display: block;
+    opacity: 1;
+    transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -webkit-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+}
+
 /* LINKS */
 a{text-decoration: none; color: white;}
 a:visited{text-decoration: none; color: white;}
@@ -68,37 +106,6 @@ visibility: visible;
 
 #parties-show {display: block; margin-top: -20px; font-size: 24px; padding: 24px; max-width: 40vw;}
 #parties-show a{padding: 0;}
-
-.hover_image a{
-position:relative;
-}
-.hover_image a span{
-position:absolute;
-z-index:-9999;
-left: 0;
-opacity: 0;
-transition: opacity .25s ease-out;
--moz-transition: opacity .25s ease-out;
--webkit-transition: opacity .25s ease-out;
--o-transition: opacity .25s ease-out;
-}
-
-.hover_image a:hover span{
-left: 0;
-opacity: 1;
-transition: opacity .25s ease-out;
--moz-transition: opacity .25s ease-out;
--webkit-transition: opacity .25s ease-out;
--o-transition: opacity .25s ease-out;
-}
-
-.hover_image a span img{
-margin-left: -24px;
-width: 150vw;
-height: auto;
-min-height: 100vh;
-margin-top: -50vh;
-}
 
 
 /* NAV - RESIDENTS HOVER */
