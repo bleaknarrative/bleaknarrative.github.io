@@ -16,7 +16,7 @@ body{
 /* NAV - RESIDENTS HOVER */
 
 .resident{
-    content-visibility: hidden;
+    visibility: hidden;
     opacity: 0;
     transition: opacity .25s ease-out;
     -moz-transition: opacity .25s ease-out;
@@ -47,7 +47,7 @@ body{
 }
 
 .show-resident{
-    content-visibility: visible;
+    visibility: visible;
     opacity: 1;
     transition: opacity .25s ease-out;
     -moz-transition: opacity .25s ease-out;
@@ -205,8 +205,8 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 }
 
 @media (max-width: 450px) {
-    .show-resident{content-visibility: hidden;}
-    .nav-links{margin-top: 60px; content-visibility: hidden;} .show-nav{content-visibility: visible;}
+    .show-resident{visibility: hidden;}
+    .nav-links{margin-top: 60px; visibility: hidden;} .show-nav{visibility: visible;}
     .nav-mobile{display: block; top: 0; position: fixed; height: 60px; width: 100%; border-bottom: 1px solid white; z-index: 99999;}
     .nav-mobile-inside{margin-left: 24px; margin-right: 24px; margin-top: 20px; display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
 
