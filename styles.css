@@ -22,7 +22,7 @@ body{
     -o-transition: opacity .25s ease-out;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     z-index: -9999;
 }
 
