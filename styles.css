@@ -44,7 +44,6 @@ body{
 
 .show-resident{
     content-visibility: visible;
-    display: block;
     opacity: 1;
     transition: opacity .25s ease-out;
     -moz-transition: opacity .25s ease-out;
@@ -184,7 +183,7 @@ page p{
 }
 
 
-/* RESPONSIVE STATES */
+/* MEDIA QUERIES */
 @media (max-width: 650px) {
 #artists-hide {font-size: 18px;}
 #artists-show {font-size: 18px;}
@@ -202,4 +201,6 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 .footer-icons a{padding: 12px;}
 
 }
+
+@media (max-width: 450px) {.show-resident{content-visibility: hidden;}
 
