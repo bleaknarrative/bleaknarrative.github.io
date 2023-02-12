@@ -9,7 +9,7 @@ function showParties() {
   }
 }
 
-function showParties() {
+function hideParties() {
   var x = document.getElementById("parties-show");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -27,7 +27,7 @@ function showResidents() {
   }
 }
 
-function showResidents() {
+function hideResidents() {
   var x = document.getElementById("artists-show");
   if (x.style.display === "none") {
     x.style.display = "block";

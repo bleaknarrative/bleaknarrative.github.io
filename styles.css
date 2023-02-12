@@ -13,6 +13,8 @@ body{
     margin: 0;
 }
 
+/* NAV - RESIDENTS HOVER */
+
 .resident{
     content-visibility: hidden;
     opacity: 0;
@@ -115,9 +117,6 @@ visibility: visible;
 #parties-show {display: block; margin-top: -20px; font-size: 24px; padding: 24px; max-width: 40vw;}
 #parties-show a{padding: 0;}
 
-
-/* NAV - RESIDENTS HOVER */
-
 /* FOOTER */
 footer{display: flex; flex-direction: row; align-items: center; justify-content: space-between; bottom: 0; position: fixed; height: 60px; width: 100%; border-top: 1px solid white; z-index: 9999;}
 
@@ -198,12 +197,24 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 
 .footer-left{display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;}
 .footer-right{display:none;}
-.footer-wordmark{margin-left: 12px; padding-right: 0px; width: 120px;}
+.footer-wordmark{margin-left: 20px; padding-right: 0px; width: 120px;}
 .footer-wordmark-mobile{display: none;}
 .footer-icons img{width: 20px; vertical-align: middle;}
 .footer-icons a{padding: 12px;}
 
 }
 
-@media (max-width: 450px) {.show-resident{content-visibility: hidden;}
+@media (max-width: 450px) {
+    .show-resident{content-visibility: hidden;}
+    .nav-links{margin-top: 60px; content-visibility: hidden;} .show-nav{content-visibility: visible;}
+    .nav-mobile{display: block; top: 0; position: fixed; height: 60px; width: 100%; border-bottom: 1px solid white; z-index: 99999;}
+    .nav-mobile-inside{margin-left: 24px; margin-right: 24px; margin-top: 20px; display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
+
+page{
+    margin-top: 60px;
+    height: calc(100% - 120px);
+    width: 100vw;
+    border-left: 0px;
+}
+}
 
