@@ -14,7 +14,7 @@ body{
 }
 
 .resident{
-    visibility: hidden;
+    content-visibility: hidden;
     opacity: 0;
     transition: opacity .25s ease-out;
     -moz-transition: opacity .25s ease-out;
@@ -42,7 +42,7 @@ body{
 }
 
 .show-resident{
-    visibility: visible;
+    content-visibility: visible;
     display: block;
     opacity: 1;
     transition: opacity .25s ease-out;
@@ -182,10 +182,6 @@ page p{
 #artists-hide {font-size: 18px;}
 #artists-show {font-size: 18px;}
 #parties {font-size: 18px;}
-
-.hover_image a:hover span{
-display:none;
-}
 
 footer{flex-direction: row; align-items: center; height: 60px;}
 
