@@ -29,11 +29,13 @@ body{
 .whattis{
     background-image: url("imgs/residents/whattis.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .fluffi{
     background-image: url("imgs/residents/fluffi.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .paris{
