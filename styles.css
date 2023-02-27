@@ -209,7 +209,7 @@ footer{flex-direction: row; align-items: center; height: 60px;}
 
 .footer-left{display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%;}
 .footer-right{display:none;}
-.footer-wordmark{margin-left: 20px; padding-right: 0px; width: 120px;}
+.footer-wordmark{margin-left: 20px; padding-right: 0px; width: 80px;}
 .footer-wordmark-mobile{display: none;}
 .footer-icons img{width: 20px; vertical-align: middle;}
 .footer-icons a{padding: 12px;}
